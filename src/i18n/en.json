@@ -1,0 +1,532 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "PropertyManagement": "Rent & Management",
+    "gallery": "Gallery",
+    "LandSelection": "Land Selection",
+    "buy": "How to Buy",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Build the home of your dreams.",
+    "subtitle": "We design and build modern houses.",
+    "projects": "Projects",
+    "about": "About Us",
+    "experience": {
+      "title": "Looking for a modern villa, a cozy cottage, or a custom design?",
+      "years": "In the suburban construction market",
+      "projects": "Designed and built",
+      "clients": "Happy clients"
+    }
+  },
+  "about": {
+    "title": "Domberg Construction",
+    "p1": "Domberg is a team that has been building stylish and reliable block houses in Kaliningrad and the region for over 10 years. We don’t just build houses — we create thoughtful living spaces. Every project is a blend of architectural aesthetics, engineering precision, and modern comfort.",
+    "p2": "We support clients at every stage — from choosing a plot to moving into a finished home. If you're looking for a partner you can trust with your future home — we're here.",
+    "p3": "Domberg — homes you'll love to live in."
+  },
+  "service": {
+    "title": "Our Services",
+    "items": {
+      "construction": {
+        "title": "Construction",
+        "description": "We build high-quality turnkey homes with a guarantee and on time."
+      },
+      "design": {
+        "title": "Design",
+        "description": "We develop architectural and engineering designs tailored to your needs."
+      },
+      "interior": {
+        "title": "Interior Design",
+        "description": "We create cozy and stylish interiors for any budget."
+      }
+    }
+  },
+
+  "management": {
+    "title": "How We Organize the Work Process",
+    "description": "In our construction company, the process is structured into several key stages...",
+    "aboutButton": "About Us",
+    "steps": {
+      "consult": {
+        "title": "Consultation",
+        "text": "We discuss your goals, budget, and technical possibilities."
+      },
+      "design": {
+        "title": "Design",
+        "text": "We develop architectural and engineering solutions."
+      },
+      "contract": {
+        "title": "Contract Signing",
+        "text": "We fix the price, deadlines, and guarantees in a contract."
+      },
+      "build": {
+        "title": "Construction",
+        "text": "We carry out all stages of construction with quality control."
+      },
+      "handover": {
+        "title": "Handover",
+        "text": "We deliver the completed house and provide support afterward."
+      }
+    }
+  },
+
+  "GalleryProject": {
+    "dom100": {
+      "description": "Haus Line 100 m²",
+      "price": "from 3,500,000 ₽"
+    },
+    "mansarda120": {
+      "description": "Attic Comfort 120 m²",
+      "price": "from 4,200,000 ₽"
+    },
+    "skandi100": {
+      "description": "Scandi House 100 m²",
+      "price": "from 3,500,000 ₽"
+    },
+    "hitech90": {
+      "description": "Hi-Tech 90 m²",
+      "price": "from 3,150,000 ₽"
+    },
+    "skandi160": {
+      "description": "Scandi House 160 m²",
+      "price": "from 5,590,000 ₽"
+    },
+    "skandi120": {
+      "description": "Two-Storey House 143 m²",
+      "price": "from 11,500,000 ₽"
+    }
+  },
+
+  "project": {
+    "title": "House Projects"
+  },
+
+  "gallery": {
+    "title": "Gallery"
+  },
+
+  "buy": {
+    "title": "How to Buy",
+    "subtitle": "There are always options",
+    "options": {
+      "cash": {
+        "title": "CASH PAYMENT",
+        "description": ["Step-by-step payment", "Payment schedule"]
+      },
+      "mortgage": {
+        "title": "MORTGAGE",
+        "description": [
+          "Interest rate from 5%",
+          "Up to 30 years",
+          "Down payment from 20.1%"
+        ]
+      },
+      "consumer": {
+        "title": "CONSUMER LOAN",
+        "description": ["Rate from 15.9%", "Up to 5 years", "0% down payment"]
+      },
+      "matcapital": {
+        "title": "MATERNITY CAPITAL",
+        "description": ["Use maternity capital, the rest via mortgage or loan"]
+      }
+    },
+    "sber": {
+      "title": "SberBank Mortgage",
+      "subtitle": "Find out your individual estimate now"
+    }
+  },
+
+  "calc": {
+    "title": "Calculate the estimated cost",
+    "materialLabel": "Which material do you want to build your house from",
+    "material1": "Aerated concrete block",
+    "material2": "Brick",
+    "material3": "Foam block",
+    "foundationLabel": "What type of foundation will your house have",
+    "foundation1": "Slab",
+    "foundation2": "Strip",
+    "foundation3": "Pile",
+    "ceilingLabel": "What kind of floor slabs do you plan",
+    "ceiling1": "Monolithic",
+    "ceiling2": "Wooden",
+    "ceiling3": "Concrete slabs",
+    "floorLabel": "Desired number of floors",
+    "floor1": "1 floor",
+    "floor2": "1 + attic",
+    "floor3": "2 floors",
+    "floor4": "2 + attic",
+    "floor5": "3 floors",
+    "areaLabel": "Planned area of the house (m²)",
+    "button": "Calculate",
+    "resultLabel": "Estimated cost of your house from:"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "company": "Construction Company Domberg",
+    "companyName": "IE Abgaryan Edgar Manvelovich",
+    "form": {
+      "name": "Your name",
+      "phone": "Your phone",
+      "message": "Comment",
+      "button": "Send message",
+      "success": "Thank you! Your request has been sent.",
+      "privacy": "By clicking the \"Send message\" button, I agree to the",
+      "policy": "privacy policy",
+      "phonePlaceholder": "+1 (___) ___-____",
+      "errorName": "Please enter your name",
+      "errorMessage": "Please enter a message",
+      "nameError": "The name must contain at least 2 letters",
+      "phoneError": "The phone number must contain at least 5 digits",
+      "messageError": "Please enter a message"
+    }
+  },
+  "priceList": {
+    "title": "Construction Price List",
+    "subtitle": "The table shows average rates for individual types of work. To calculate the exact cost of your project, request a quote — it's free and takes 2–3 business days.",
+    "note": "* Prices are indicative and may vary depending on the project, materials used, and distance from Kaliningrad. Exact prices are fixed in the contract and estimate.",
+    "buttonProjectName": "Price List",
+    "buttonTitle": "Request a Free Quote",
+
+    "packages": {
+      "shell": {
+        "label": "Shell construction",
+        "price": "from 35,000 ₽/m²",
+        "desc": "Foundation, walls, floor slabs, roof"
+      },
+      "finishing": {
+        "label": "Ready for finishing",
+        "price": "from 60,000 ₽/m²",
+        "desc": "Shell + utilities, windows, doors, exterior finish"
+      },
+      "turnkey": {
+        "label": "Turnkey",
+        "price": "from 85,000 ₽/m²",
+        "desc": "Full cycle: design → handover with documents"
+      }
+    },
+
+    "sections": {
+      "project": "Design & Survey Works",
+      "foundation": "Foundation Works",
+      "walls": "Walls & Floor Slabs",
+      "roof": "Roofing",
+      "facade": "Facade Works",
+      "electric": "Electrical Works",
+      "plumbing": "Plumbing & Drainage",
+      "finishing": "Interior Finishing"
+    },
+
+    "table": {
+      "work": "Type of Work",
+      "unit": "Unit",
+      "price": "Price, ₽"
+    }
+  },
+
+  "PropertyManagement": {
+    "title": "Property Management in Kaliningrad",
+    "p1": "The perfect solution for owners living abroad. Our team handles everything — from finding tenants and managing payments to legal and tax support.",
+    "p2": "Rent out your property profitably and hassle-free. We manage everything — you earn income.",
+    "p3": "Property management — your home, our responsibility.",
+    "servicesTitle": "Additional Services",
+    "servicesText": "We take care of the full cycle of property management. From listing creation and guest communication to cleaning, laundry, supply restocking and price optimization. You receive stable income — without extra worries.",
+    "services": {
+      "insurance": {
+        "title": "Property Insurance",
+        "text": "Upon request, we arrange property insurance against fire, flooding, theft and other risks. We handle all communication with the insurance company."
+      },
+      "owner_support": {
+        "title": "Owner Communication",
+        "text": "We stay in touch via Telegram, WhatsApp, or Email. You receive photo reports, updates on events, and always stay informed — no matter where you are."
+      },
+      "emergency": {
+        "title": "Emergency Response",
+        "text": "We handle all emergencies — from leaks to lock issues. We act quickly and in the owner's best interest."
+      },
+      "furnishing": {
+        "title": "Furnishing and Equipment",
+        "text": "We help furnish and equip your rental: purchase, delivery, assembly, textile and appliance selection."
+      },
+      "foreign_payment": {
+        "title": "International Payments",
+        "text": "We accept payments to foreign accounts — convenient for owners living outside Russia. Transfers in euros, dollars, and other currencies are supported."
+      },
+      "legal_support_germany": {
+        "title": "Legal Support in Germany",
+        "text": "We partner with a legal firm in Germany. Contracts can be arranged and signed through them — convenient and secure for EU-based owners."
+      }
+    }
+  },
+  "servicesBlock": {
+    "title": "Our Services",
+    "members": [
+      {
+        "name": "Tenant selection and check-in",
+        "role": "We select reliable tenants, verify documents, draw up contracts, and organize turnkey move-ins."
+      },
+      {
+        "name": "Property condition control",
+        "role": "We maintain regular control of the property condition, promptly fix issues, and keep the property in excellent shape."
+      },
+      {
+        "name": "Cleaning and maintenance",
+        "role": "We ensure cleaning, fix breakdowns, and monitor the technical condition of the property."
+      },
+      {
+        "name": "Legal and financial support",
+        "role": "We handle contracts, track income and expenses, and resolve legal and tax issues."
+      },
+      {
+        "name": "24/7 tenant support",
+        "role": "We respond promptly to tenant requests and handle any household or technical issues 24/7."
+      },
+      {
+        "name": "Reports and payouts",
+        "role": "We provide complete financial reports and make timely payouts to the property owner."
+      }
+    ]
+  },
+  "land": {
+    "title": "Land selection and house construction in Kaliningrad and the region",
+    "imageAlt": "Land plot",
+    "p1": "We will help you select and purchase a land plot in a convenient location, and also build a house of any complexity — according to your wishes and turnkey.",
+    "p2": "Our company provides full-cycle construction — from preparing project documentation to putting the house into operation. We take care of the entire process and implement projects of any complexity.",
+
+    "legalTitle": "Legal due diligence of the land plot includes:",
+    "legalItems": [
+      "Legality of acquisition",
+      "Compliance with the cadastral plan",
+      "Check for encumbrances and claims",
+      "Special zones (recreational, coastal, etc.)",
+      "Availability of utilities and access",
+      "Compliance with customer requirements",
+      "Assessment of utility connection costs"
+    ],
+
+    "sellerTitle": "Legal verification of the seller:",
+    "sellerItems": [
+      "Checking for debts",
+      "Co-owners",
+      "Age (court consent if required)",
+      "Marital status (spousal consent if required)"
+    ],
+
+    "taxes": "Tax impact assessment: for the Buyer and Seller (individual/legal entity), including obligations for plot use",
+
+    "structureTitle": "Transaction structuring and legal support:",
+    "structureItems": [
+      "Purchase of agricultural land by foreigners",
+      "Support of all operations in the Public Register"
+    ],
+
+    "buttonTitle": "Request a land selection consultation",
+    "buttonProjectName": "Land selection"
+  },
+
+  "projectpage": {
+    "Dom100": {
+      "title": "House Line 100m²",
+      "grid": {
+        "type": "Type",
+        "typeValue": "One-storey house",
+        "duration": "Completion time",
+        "durationValue": "90 days",
+        "area": "Area",
+        "areaValue": "100m²",
+        "price": "Price",
+        "priceValue": "On request"
+      },
+      "desc": {
+        "0": "A modern house with a spacious terrace and double-height ceiling.",
+        "1": "Total area: 100 m² + 30 m² terrace",
+        "2": "This bright and cozy house perfectly combines the aesthetics of modern design with practicality. Panoramic windows fill the interior with natural light, creating a sense of openness and airiness.",
+        "3": "📐 You can choose this project as-is or adapt it to your needs."
+      }
+    },
+    "skandi120": {
+      "title": "Scandi House 120m²",
+      "grid": {
+        "type": "Type",
+        "typeValue": "One-story house",
+        "status": "Status",
+        "statusValue": "90 days",
+        "area": "Area",
+        "areaValue": "120m²",
+        "price": "Price",
+        "priceValue": "4,200,000 ₽"
+      },
+      "desc": {
+        "0": "Scandi House with an area of 120 m² is a modern and cozy home that blends perfectly with the natural surroundings.",
+        "1": "The light facade finish and natural wood accents emphasize harmony with the forest landscape. Panoramic windows open up views of nature and fill the house with natural light.",
+        "2": "The functional layout combines the kitchen and living room, creating a spacious and comfortable area for family leisure and gatherings with friends.",
+        "3": "📐 You can choose this project or adapt it to your needs."
+      }
+    },
+    "HiTech90": {
+      "title": "Hi-Tech 90m²",
+      "grid": {
+        "type": "Type",
+        "typeValue": "One-storey house",
+        "duration": "Completion time",
+        "durationValue": "90 days",
+        "area": "Area",
+        "areaValue": "90m²",
+        "price": "Price",
+        "priceValue": "On request"
+      },
+      "desc": {
+        "0": "Modern house with a spacious terrace and double-height ceiling.",
+        "1": "Total area: 90 m²",
+        "2": "A modern one-storey house in hi-tech style with a focus on clean architecture, functionality, and natural light. Geometric shapes, contrasting materials, flat roof, and panoramic windows create a feeling of lightness and space.",
+        "3": "📐 You can choose this project or adapt it to your needs."
+      }
+    },
+    "Mansarda100": {
+      "title": "Attic Comfort 120m²",
+      "grid": {
+        "type": "Type",
+        "typeValue": "One-storey house",
+        "duration": "Completion time",
+        "durationValue": "90 days",
+        "area": "Area",
+        "areaValue": "120m²",
+        "price": "Price",
+        "priceValue": "On request"
+      },
+      "desc": {
+        "0": "This excellent 120 m² house attracts with its modern design and functionality.",
+        "1": "It includes an attic floor, offering additional space usage opportunities. A highlight of the house is the beautiful floor-to-ceiling windows that fill the interiors with natural light and create a sense of spaciousness.",
+        "2": "The double-height ceiling in the living room adds airiness and visual openness, while the wide street view creates a cozy atmosphere.",
+        "3": "The space is perfect for family life, combining comfort and style.",
+        "4": "📐 You can choose this project or adapt it to your needs."
+      }
+    },
+    "SkandiHouse": {
+      "title": "Scandi House 160m²",
+      "grid": {
+        "type": "Type",
+        "typeValue": "One-storey house",
+        "duration": "Completion time",
+        "durationValue": "90 days",
+        "area": "Area",
+        "areaValue": "160m²",
+        "price": "Price",
+        "priceValue": "On request"
+      },
+      "desc": {
+        "0": "Scandi House is a 160 m² home that combines modernity and coziness. Its minimalist style is emphasized by light plaster and a soft color palette.",
+        "1": "Wooden accents add warmth and naturalness, while the functional architecture makes the space highly practical. The spacious kitchen and living room are perfect for family gatherings, and large windows fill the house with light.",
+        "2": "The attic, designed in the same style, offers additional space for relaxation and storage.",
+        "3": "📐 You can choose this project or adapt it to your needs."
+      }
+    },
+    "SkandiHouse2": {
+      "title": "Scandi House 100m²",
+      "grid": {
+        "type": "Type",
+        "typeValue": "One-storey house",
+        "duration": "Completion time",
+        "durationValue": "90 days",
+        "area": "Area",
+        "areaValue": "100m²",
+        "price": "Price",
+        "priceValue": "On request"
+      },
+      "desc": {
+        "0": "Scandi House with an area of 100 m² is a cozy and stylish home that embodies the principles of Scandinavian design.",
+        "1": "Light plaster and natural materials create a harmonious atmosphere, while spacious windows fill the rooms with sunlight. The open floor plan unites the kitchen and living room, fostering a friendly environment for family gatherings.",
+        "2": "Light plaster and natural materials create a harmonious atmosphere, while spacious windows fill the rooms with sunlight. The open floor plan unites the kitchen and living room, fostering a friendly environment for family gatherings.",
+        "3": "📐 You can choose this project or adapt it to your needs."
+      }
+    }
+  },
+  "order": {
+    "button": "Submit Request",
+    "title": "Project Request",
+    "project": "Page",
+    "name": "Name",
+    "phone": "Phone",
+    "finish": "Finish",
+    "comment": "Comment",
+    "source": "House calculator button",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "Phone number",
+    "commentPlaceholder": "Comment",
+    "selectFinish": "Type of finish",
+    "finishes": {
+      "black": "Basic finish",
+      "pre": "Pre-finish",
+      "full": "Turnkey"
+    },
+    "submit": "Send Request",
+    "sending": "Sending...",
+    "success": "Thank you! Your request has been sent.",
+    "policyNote": "By clicking \"Send Request\", I agree to the",
+    "policyLink": "privacy policy",
+    "telegramTitle": "New request from page",
+    "errors": {
+      "name": "Please enter a valid name",
+      "phone": "Please enter a valid phone number",
+      "finish": "Please select a finish type"
+    }
+  },
+  "notfound": {
+    "message": "Oops... the page was not found or is still under construction.",
+    "button": "Return to homepage"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This privacy policy outlines the procedure for processing and protecting users' personal data when using the 'Domberg' website (hereinafter referred to as the Operator).",
+    "section1": {
+      "title": "General provisions",
+      "text": "Using the website implies the user's agreement with this privacy policy. If you do not agree, you should refrain from using the site."
+    },
+    "section2": {
+      "title": "Personal data",
+      "text": "Personal data refers to information provided voluntarily by the user via the site form: name, phone number, and comment. This data is not shared with third parties without the user’s consent."
+    },
+    "section3": {
+      "title": "Purpose of data collection",
+      "list": [
+        "Processing client requests;",
+        "Consulting on company services;",
+        "Improving service quality;",
+        "Contacting clients to clarify request details."
+      ]
+    },
+    "section4": {
+      "title": "Methods of processing",
+      "text": "Personal data is processed both manually and automatically in accordance with the laws of the Russian Federation."
+    },
+    "section5": {
+      "title": "Storage and protection",
+      "text": "Data is stored in secure Google services (Google Sheets) and is not accessible to third parties. Transfer is carried out via secure HTTPS connection. Notifications are sent through a Telegram bot."
+    },
+    "section6": {
+      "title": "Retention period",
+      "text": "Data is stored for 12 months from the date of receipt or until the user requests its deletion."
+    },
+    "section7": {
+      "title": "Third-party disclosure",
+      "text": "The operator does not transfer personal data to third parties except as required by law."
+    },
+    "section8": {
+      "title": "User rights",
+      "text": "The user has the right to request correction or deletion of their data and may withdraw consent by contacting via email:"
+    },
+    "section9": {
+      "title": "Policy updates",
+      "text": "The operator reserves the right to update this policy without the user’s consent. The latest version is always available at: /PrivacyPolicy"
+    },
+    "section10": {
+      "title": "Contact information"
+    }
+  },
+  "footer": {
+    "company": "Domberg — Low-rise house construction"
+  }
+}

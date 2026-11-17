@@ -1,26 +1,38 @@
-const SkandiHouse2Data = {
-    title: "Сканди хаус 100м²",
-    mainImage: "https://i.ibb.co/fY0Shdhr/Chat-GPT-Image-17-2025-23-31-33-1.png",
+import { useTranslation } from "react-i18next";
+
+const SkandiHouse2Data = () => {
+  const { t } = useTranslation();
+
+  return {
+    title: t("projectpage.SkandiHouse2.title"),
+    folder: "skand100", // папка с фото
+    mainImageName: "skand1", // главное фото
     gridInfo: [
-      { label: "Тип", value: "Одноэтажный дом" },
-      { label: "Срок реализации", value: "90 дней" },
-      { label: "Площадь", value: "100м²" },
-      { label: "Стоимость", value: "По запросу" }
+      {
+        label: t("projectpage.SkandiHouse2.grid.type"),
+        value: t("projectpage.SkandiHouse2.grid.typeValue"),
+      },
+      {
+        label: t("projectpage.SkandiHouse2.grid.duration"),
+        value: t("projectpage.SkandiHouse2.grid.durationValue"),
+      },
+      {
+        label: t("projectpage.SkandiHouse2.grid.area"),
+        value: t("projectpage.SkandiHouse2.grid.areaValue"),
+      },
+      {
+        label: t("projectpage.SkandiHouse2.grid.price"),
+        value: t("projectpage.SkandiHouse2.grid.priceValue"),
+      },
     ],
     description: [
-      "Сканди Хаус площадью 100 кв. м. — это уютное и стильное жилище, воплощающее принципы скандинавского дизайна. ",
-      "Светлая штукатурка и натуральные материалы создают гармоничную атмосферу, а просторные окна наполняют комнаты солнечным светом. Открытая планировка объединяет кухню и гостиную, что способствует созданию дружелюбной обстановки для семейных встреч. ",
-      "Светлая штукатурка и натуральные материалы создают гармоничную атмосферу, а просторные окна наполняют комнаты солнечным светом. Открытая планировка объединяет кухню и гостиную, что способствует созданию дружелюбной обстановки для семейных встреч.",
-      "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
+      t("projectpage.SkandiHouse2.desc.0"),
+      t("projectpage.SkandiHouse2.desc.1"),
+      t("projectpage.SkandiHouse2.desc.2"),
+      t("projectpage.SkandiHouse2.desc.3"),
     ],
-    images: [
-      "https://i.ibb.co/wF5GV9qh/photo-3-2025-04-11-19-47-17.jpg",
-      "https://i.ibb.co/pvGymQ14/photo-4-2025-04-11-19-47-17.jpg",
-      "https://i.ibb.co/3mVC6JwP/photo-1-2025-04-11-19-47-17.jpg",
-      "https://i.ibb.co/F4f0TxXK/photo-2-2025-04-11-19-47-17.jpg",
-      "https://i.ibb.co/W4p4nkxH/photo-5-2025-04-11-19-47-17.jpg"
-    ]
-    
+    images: ["skand2", "skand3", "skand4", "skand5"],
   };
-  
-  export default SkandiHouse2Data;
+};
+
+export default SkandiHouse2Data;

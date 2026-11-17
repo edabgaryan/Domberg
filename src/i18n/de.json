@@ -1,0 +1,539 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "projects": "Projekte",
+    "PropertyManagement": "Vermietung & Verwaltung",
+    "gallery": "Galerie",
+    "LandSelection": "Grundstücksauswahl",
+    "buy": "Kaufen",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Bauen Sie das Haus Ihrer Träume.",
+    "subtitle": "Wir entwerfen und bauen moderne Häuser.",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "experience": {
+      "title": "Moderne Villa, gemütliches Haus oder individuelles Projekt?",
+      "years": "Auf dem Markt für Landhausbau",
+      "projects": "Entworfen und gebaut",
+      "clients": "Zufriedene Kunden"
+    }
+  },
+  "about": {
+    "title": "Domberg",
+    "p1": "Domberg ist ein Team, das seit über 10 Jahren stilvolle und zuverlässige Häuser aus Blöcken in Kaliningrad und Umgebung baut. Wir bauen nicht nur Häuser – wir schaffen durchdachte Lebensräume. Jedes Projekt vereint architektonische Ästhetik, technische Präzision und modernen Komfort.",
+    "p2": "Wir begleiten unsere Kunden in jeder Phase – von der Grundstückswahl bis zum Einzug ins fertige Haus. Wenn Sie einen Partner suchen, dem Sie Ihr zukünftiges Zuhause anvertrauen können – wir sind für Sie da.",
+    "p3": "Domberg – Häuser, in denen man leben möchte."
+  },
+  "service": {
+    "title": "Unsere Dienstleistungen",
+    "items": {
+      "construction": {
+        "title": "Bau",
+        "description": "Wir bauen hochwertige schlüsselfertige Häuser mit Garantie und Termintreue."
+      },
+      "design": {
+        "title": "Planung",
+        "description": "Wir entwickeln architektonische und technische Entwürfe nach Ihren Wünschen."
+      },
+      "interior": {
+        "title": "Innenarchitektur",
+        "description": "Wir gestalten gemütliche und stilvolle Innenräume für jedes Budget."
+      }
+    }
+  },
+
+  "management": {
+    "title": "Wie wir den Arbeitsprozess organisieren",
+    "description": "In unserem Bauunternehmen ist der Ablauf in mehrere Schlüsselphasen unterteilt...",
+    "aboutButton": "Über uns",
+    "steps": {
+      "consult": {
+        "title": "Beratung",
+        "text": "Wir besprechen Ihre Ziele, Ihr Budget und die technischen Möglichkeiten."
+      },
+      "design": {
+        "title": "Planung",
+        "text": "Wir entwickeln architektonische und technische Lösungen."
+      },
+      "contract": {
+        "title": "Vertragsabschluss",
+        "text": "Wir fixieren Kosten, Termine und Garantien im Vertrag."
+      },
+      "build": {
+        "title": "Bau",
+        "text": "Wir führen alle Bauphasen mit Qualitätskontrolle durch."
+      },
+      "handover": {
+        "title": "Übergabe",
+        "text": "Wir übergeben das fertige Haus und bieten Support danach."
+      }
+    }
+  },
+
+  "GalleryProject": {
+    "dom100": {
+      "description": "Hauslinie 100 m²",
+      "price": "ab 3.500.000 ₽"
+    },
+    "mansarda120": {
+      "description": "Gemütliches Dachgeschoss 120 m²",
+      "price": "ab 4.200.000 ₽"
+    },
+    "skandi100": {
+      "description": "Skandi Haus 100 m²",
+      "price": "ab 3.500.000 ₽"
+    },
+    "hitech90": {
+      "description": "High-Tech 90 m²",
+      "price": "ab 3.150.000 ₽"
+    },
+    "skandi160": {
+      "description": "Skandi Haus 160 m²",
+      "price": "ab 5.590.000 ₽"
+    },
+    "skandi120": {
+      "description": "Zweistöckiges Haus 143 m²",
+      "price": "ab 11.500.000 ₽"
+    }
+  },
+
+  "project": {
+    "title": "Hausprojekte"
+  },
+
+  "gallery": {
+    "title": "Galerie"
+  },
+
+  "buy": {
+    "title": "Wie kaufen",
+    "subtitle": "Es gibt immer Möglichkeiten",
+    "options": {
+      "cash": {
+        "title": "BARZAHLUNG",
+        "description": ["Zahlung in Etappen", "Zahlungsplan"]
+      },
+      "mortgage": {
+        "title": "HYPOTHEK",
+        "description": [
+          "Zinssatz ab 5%",
+          "Laufzeit bis 30 Jahre",
+          "Anzahlung ab 20,1%"
+        ]
+      },
+      "consumer": {
+        "title": "VERBRAUCHERKREDIT",
+        "description": [
+          "Zinssatz ab 15,9%",
+          "Laufzeit bis 5 Jahre",
+          "Anzahlung ab 0%"
+        ]
+      },
+      "matcapital": {
+        "title": "MUTTERSCHAFTSKAPITAL",
+        "description": [
+          "Bezahlen Sie mit Mutterschaftskapital, den Rest per Kredit oder Hypothek"
+        ]
+      }
+    },
+    "sber": {
+      "title": "Hypothek von SberBank",
+      "subtitle": "Berechnen Sie jetzt Ihre individuelle Finanzierung"
+    }
+  },
+
+  "calc": {
+    "title": "Berechnen Sie die geschätzten Kosten",
+    "materialLabel": "Aus welchem Material möchten Sie Ihr Haus bauen",
+    "material1": "Porenbetonblock",
+    "material2": "Ziegel",
+    "material3": "Schaumblock",
+    "foundationLabel": "Welche Fundamentart wird Ihr Haus haben",
+    "foundation1": "Platte",
+    "foundation2": "Streifenfundament",
+    "foundation3": "Pfahlfundament",
+    "ceilingLabel": "Welche Zwischendecken planen Sie",
+    "ceiling1": "Monolithisch",
+    "ceiling2": "Holz",
+    "ceiling3": "Betonplatten",
+    "floorLabel": "Gewünschte Anzahl der Etagen",
+    "floor1": "1 Etage",
+    "floor2": "1 + Dachgeschoss",
+    "floor3": "2 Etagen",
+    "floor4": "2 + Dachgeschoss",
+    "floor5": "3 Etagen",
+    "areaLabel": "Geplante Wohnfläche (m²)",
+    "button": "Berechnen",
+    "resultLabel": "Geschätzte Kosten für Ihr Haus ab:"
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "company": "Bauunternehmen Domberg",
+    "companyName": "Einzelunternehmer Abgaryan Edgar Manvelowitsch",
+    "form": {
+      "name": "Ihr Name",
+      "phone": "Ihre Telefonnummer",
+      "message": "Kommentar",
+      "button": "Nachricht senden",
+      "success": "Danke! Ihre Anfrage wurde gesendet.",
+      "privacy": "Durch Klicken auf die Schaltfläche „Nachricht senden“ stimme ich der",
+      "policy": "Datenschutzrichtlinie zu",
+      "phonePlaceholder": "+49 ___ ________",
+      "errorName": "Bitte geben Sie Ihren Namen ein",
+      "errorMessage": "Bitte geben Sie eine Nachricht ein",
+      "nameError": "Der Name muss mindestens 2 Buchstaben enthalten",
+      "phoneError": "Die Telefonnummer muss mindestens 5 Ziffern enthalten",
+      "messageError": "Bitte geben Sie eine Nachricht ein"
+    }
+  },
+  "priceList": {
+    "title": "Preisliste der Bauleistungen",
+    "subtitle": "Die Tabelle zeigt Durchschnittspreise für einzelne Arbeitsarten. Für eine genaue Kostenkalkulation Ihres Objekts fordern Sie einen Kostenvoranschlag an — kostenlos und innerhalb von 2–3 Werktagen.",
+    "note": "* Die Preise sind Richtwerte und können je nach Projekt, verwendeten Materialien und Entfernung von Kaliningrad variieren. Die genauen Preise werden im Vertrag und Kostenvoranschlag festgehalten.",
+    "buttonProjectName": "Preisliste",
+    "buttonTitle": "Kostenlosen Kostenvoranschlag anfordern",
+
+    "packages": {
+      "shell": {
+        "label": "Rohbau",
+        "price": "ab 35.000 ₽/m²",
+        "desc": "Fundament, Wände, Deckenplatten, Dach"
+      },
+      "finishing": {
+        "label": "Ausbaufertig",
+        "price": "ab 60.000 ₽/m²",
+        "desc": "Rohbau + Versorgungsleitungen, Fenster, Türen, Außenverkleidung"
+      },
+      "turnkey": {
+        "label": "Schlüsselfertig",
+        "price": "ab 85.000 ₽/m²",
+        "desc": "Vollständiger Zyklus: Planung → Übergabe mit Dokumenten"
+      }
+    },
+
+    "sections": {
+      "project": "Planungs- und Vermessungsarbeiten",
+      "foundation": "Fundamentarbeiten",
+      "walls": "Wände & Deckenplatten",
+      "roof": "Dacharbeiten",
+      "facade": "Fassadenarbeiten",
+      "electric": "Elektroinstallation",
+      "plumbing": "Sanitär & Kanalisation",
+      "finishing": "Innenausbau"
+    },
+
+    "table": {
+      "work": "Leistungsart",
+      "unit": "Einheit",
+      "price": "Preis, ₽"
+    }
+  },
+
+  "PropertyManagement": {
+    "title": "Immobilienverwaltung in Kaliningrad",
+    "p1": "Die ideale Lösung für Eigentümer, die im Ausland leben. Unser Team übernimmt alles — von der Mietersuche und Zahlungsabwicklung bis hin zu rechtlicher und steuerlicher Betreuung.",
+    "p2": "Vermieten Sie Ihre Immobilie gewinnbringend und sorgenfrei. Wir übernehmen die Verwaltung — Sie erhalten das Einkommen.",
+    "p3": "Immobilienverwaltung — Ihr Zuhause, unsere Verantwortung.",
+    "servicesTitle": "Zusätzliche Leistungen",
+    "servicesText": "Wir übernehmen den gesamten Verwaltungszyklus Ihrer Immobilie. Von der Inseraterstellung und Gästekommunikation bis zu Reinigung, Wäsche, Vorräten und Preisoptimierung. Sie erhalten ein stabiles Einkommen — ganz ohne Aufwand.",
+    "services": {
+      "insurance": {
+        "title": "Immobilienversicherung",
+        "text": "Auf Wunsch organisieren wir eine Versicherung Ihrer Immobilie gegen Feuer, Wasserschäden, Diebstahl und andere Risiken. Die gesamte Kommunikation mit der Versicherung übernehmen wir."
+      },
+      "owner_support": {
+        "title": "Eigentümer-Kommunikation",
+        "text": "Wir sind schnell über Telegram, WhatsApp oder E-Mail erreichbar. Wir senden Fotoberichte, informieren über Ereignisse und halten Sie unabhängig vom Standort auf dem Laufenden."
+      },
+      "emergency": {
+        "title": "Notfallsituationen",
+        "text": "Wir reagieren auf alle Notfälle — von Wasserschäden bis zu Schlossproblemen. Schnell und im Sinne des Eigentümers."
+      },
+      "furnishing": {
+        "title": "Einrichtung und Ausstattung",
+        "text": "Wir helfen bei der Möblierung und Ausstattung Ihrer Immobilie zur Vermietung: Einkauf, Lieferung, Aufbau, Auswahl von Textilien und Geräten."
+      },
+      "foreign_payment": {
+        "title": "Zahlung aus dem Ausland",
+        "text": "Wir akzeptieren Zahlungen auf ausländische Konten — bequem für Eigentümer, die außerhalb Russlands leben. Überweisungen in Euro, US-Dollar und anderen Währungen möglich."
+      },
+      "legal_support_germany": {
+        "title": "Juristische Betreuung in Deutschland",
+        "text": "Wir arbeiten mit einer Partnerkanzlei in Deutschland zusammen. Verträge können direkt über sie abgeschlossen werden — bequem und sicher für Eigentümer mit Wohnsitz in der EU."
+      }
+    }
+  },
+  "servicesBlock": {
+    "title": "Unsere Dienstleistungen",
+    "members": [
+      {
+        "name": "Mieterwahl und Einzug",
+        "role": "Wir wählen zuverlässige Mieter aus, prüfen Dokumente, erstellen Verträge und organisieren den Einzug schlüsselfertig."
+      },
+      {
+        "name": "Objektzustand überwachen",
+        "role": "Wir kontrollieren regelmäßig den Zustand der Immobilie, beheben Probleme rechtzeitig und halten sie gepflegt."
+      },
+      {
+        "name": "Reinigung und Wartung",
+        "role": "Wir sorgen für Reinigung, beheben Defekte und überwachen den technischen Zustand der Immobilie."
+      },
+      {
+        "name": "Juristische und finanzielle Betreuung",
+        "role": "Wir erstellen Verträge, führen Buchhaltung und klären rechtliche sowie steuerliche Angelegenheiten."
+      },
+      {
+        "name": "Rund-um-die-Uhr-Mietersupport",
+        "role": "Wir reagieren umgehend auf Anfragen der Mieter und lösen alle technischen oder alltäglichen Probleme – rund um die Uhr."
+      },
+      {
+        "name": "Abrechnung und Auszahlungen",
+        "role": "Wir liefern vollständige Finanzberichte und überweisen Auszahlungen pünktlich an den Eigentümer."
+      }
+    ]
+  },
+  "land": {
+    "title": "Grundstücksauswahl und Hausbau in Kaliningrad und Umgebung",
+    "imageAlt": "Grundstück",
+    "p1": "Wir helfen Ihnen, ein Grundstück in einer passenden Lage auszuwählen und zu kaufen und bauen auf Wunsch ein Haus jeder Komplexität — schlüsselfertig.",
+    "p2": "Unser Unternehmen übernimmt den kompletten Bauprozess – von der Planung bis zur Abnahme. Wir realisieren Projekte jeder Größenordnung zuverlässig.",
+
+    "legalTitle": "Juristische Prüfung des Grundstücks beinhaltet:",
+    "legalItems": [
+      "Rechtmäßigkeit des Erwerbs",
+      "Übereinstimmung mit dem Katasterplan",
+      "Prüfung auf Belastungen und Ansprüche",
+      "Sonderzonen (Erholungsgebiete, Küstenzonen usw.)",
+      "Versorgungsanschlüsse und Zufahrten",
+      "Einhaltung der Kundenanforderungen",
+      "Kostenabschätzung für Anschlüsse"
+    ],
+
+    "sellerTitle": "Rechtliche Prüfung des Verkäufers:",
+    "sellerItems": [
+      "Prüfung auf Schulden",
+      "Miteigentümer",
+      "Alter (Gerichtszustimmung falls erforderlich)",
+      "Familienstand (Zustimmung des Ehepartners falls erforderlich)"
+    ],
+
+    "taxes": "Steuerliche Bewertung: für Käufer und Verkäufer (natürliche/juristische Person), inklusive Nutzungspflichten",
+
+    "structureTitle": "Strukturierung und rechtliche Begleitung des Kaufs:",
+    "structureItems": [
+      "Kauf von Agrarflächen durch Ausländer",
+      "Begleitung aller Eintragungen im öffentlichen Register"
+    ],
+
+    "buttonTitle": "Anfrage zur Grundstücksauswahl senden",
+    "buttonProjectName": "Grundstücksauswahl"
+  },
+
+  "projectpage": {
+    "Dom100": {
+      "title": "Haus Line 100m²",
+      "grid": {
+        "type": "Typ",
+        "typeValue": "Einstöckiges Haus",
+        "duration": "Fertigstellungszeit",
+        "durationValue": "90 Tage",
+        "area": "Fläche",
+        "areaValue": "100m²",
+        "price": "Preis",
+        "priceValue": "Auf Anfrage"
+      },
+      "desc": {
+        "0": "Modernes Haus mit großzügiger Terrasse und doppelter Raumhöhe.",
+        "1": "Gesamtfläche: 100 m² + 30 m² Terrasse",
+        "2": "Dieses helle und gemütliche Haus vereint moderne Designästhetik mit Funktionalität. Panoramafenster durchfluten den Innenraum mit Tageslicht und schaffen ein Gefühl von Weite und Luftigkeit.",
+        "3": "📐 Sie können dieses Projekt wählen oder an Ihre Bedürfnisse anpassen."
+      }
+    },
+    "skandi120": {
+      "title": "Skandi Haus 120m²",
+      "grid": {
+        "type": "Typ",
+        "typeValue": "Einstöckiges Haus",
+        "status": "Status",
+        "statusValue": "90 Tage",
+        "area": "Fläche",
+        "areaValue": "120m²",
+        "price": "Preis",
+        "priceValue": "4.200.000 ₽"
+      },
+      "desc": {
+        "0": "Das Skandi Haus mit einer Fläche von 120 m² ist ein modernes und gemütliches Zuhause, das sich perfekt in die natürliche Umgebung einfügt.",
+        "1": "Die helle Fassadengestaltung und Akzente aus Naturholz betonen die Harmonie mit der Waldlandschaft. Panoramafenster eröffnen den Blick in die Natur und erfüllen das Haus mit Tageslicht.",
+        "2": "Der funktionale Grundriss verbindet Küche und Wohnzimmer und schafft einen großzügigen und komfortablen Bereich für Familienaufenthalte und Treffen mit Freunden.",
+        "3": "📐 Sie können dieses Projekt wählen oder es an Ihre Bedürfnisse anpassen."
+      }
+    },
+    "HiTech90": {
+      "title": "High-Tech 90m²",
+      "grid": {
+        "type": "Typ",
+        "typeValue": "Einstöckiges Haus",
+        "duration": "Fertigstellungszeit",
+        "durationValue": "90 Tage",
+        "area": "Fläche",
+        "areaValue": "90m²",
+        "price": "Preis",
+        "priceValue": "Auf Anfrage"
+      },
+      "desc": {
+        "0": "Modernes Haus mit großzügiger Terrasse und doppelter Raumhöhe.",
+        "1": "Gesamtfläche: 90 m²",
+        "2": "Modernes einstöckiges Haus im High-Tech-Stil mit Fokus auf klare Architektur, Funktionalität und natürliches Licht. Geometrische Formen, kontrastreiche Materialien, Flachdach und Panoramafenster vermitteln ein Gefühl von Leichtigkeit und Weite.",
+        "3": "📐 Sie können dieses Projekt wählen oder an Ihre Bedürfnisse anpassen."
+      }
+    },
+    "Mansarda100": {
+      "title": "Dachwohn-Komfort 120m²",
+      "grid": {
+        "type": "Typ",
+        "typeValue": "Einstöckiges Haus",
+        "duration": "Fertigstellungszeit",
+        "durationValue": "90 Tage",
+        "area": "Fläche",
+        "areaValue": "120m²",
+        "price": "Preis",
+        "priceValue": "Auf Anfrage"
+      },
+      "desc": {
+        "0": "Dieses ausgezeichnete Haus mit 120 m² besticht durch modernes Design und Funktionalität.",
+        "1": "Es verfügt über ein Dachgeschoss, das zusätzliche Nutzungsmöglichkeiten bietet. Besondere Merkmale sind die bodentiefen Fenster, die viel Tageslicht hereinlassen und ein Gefühl von Weite schaffen.",
+        "2": "Die Galerie im Wohnzimmer sorgt für Luftigkeit und optische Großzügigkeit, während der weite Blick auf die Straße eine gemütliche Atmosphäre schafft.",
+        "3": "Der Raum ist ideal für das Familienleben und vereint Komfort mit Stil.",
+        "4": "📐 Sie können dieses Projekt wählen oder an Ihre Bedürfnisse anpassen."
+      }
+    },
+    "SkandiHouse": {
+      "title": "Skandi Haus 160m²",
+      "grid": {
+        "type": "Typ",
+        "typeValue": "Einstöckiges Haus",
+        "duration": "Fertigstellungszeit",
+        "durationValue": "90 Tage",
+        "area": "Fläche",
+        "areaValue": "160m²",
+        "price": "Preis",
+        "priceValue": "Auf Anfrage"
+      },
+      "desc": {
+        "0": "Skandi Haus ist ein 160 m² großes Haus, das Modernität und Gemütlichkeit vereint. Sein minimalistischer Stil wird durch hellen Putz und eine sanfte Farbpalette unterstrichen.",
+        "1": "Holzakzente verleihen Wärme und Natürlichkeit, während die funktionale Architektur den Raum äußerst komfortabel macht. Die geräumige Küche und das Wohnzimmer sind ideal für Familientreffen, und große Fenster fluten das Haus mit Licht.",
+        "2": "Der Dachboden, im gleichen Stil gestaltet, bietet zusätzlichen Raum zum Entspannen oder Lagern.",
+        "3": "📐 Sie können dieses Projekt wählen oder an Ihre Bedürfnisse anpassen."
+      }
+    },
+    "SkandiHouse2": {
+      "title": "Skandi Haus 100m²",
+      "grid": {
+        "type": "Typ",
+        "typeValue": "Einstöckiges Haus",
+        "duration": "Fertigstellungszeit",
+        "durationValue": "90 Tage",
+        "area": "Fläche",
+        "areaValue": "100m²",
+        "price": "Preis",
+        "priceValue": "Auf Anfrage"
+      },
+      "desc": {
+        "0": "Skandi Haus mit 100 m² Wohnfläche ist ein gemütliches und stilvolles Zuhause, das die Prinzipien des skandinavischen Designs verkörpert.",
+        "1": "Heller Putz und natürliche Materialien schaffen eine harmonische Atmosphäre, während große Fenster die Räume mit Sonnenlicht durchfluten. Der offene Grundriss verbindet Küche und Wohnzimmer und schafft eine freundliche Umgebung für Familientreffen.",
+        "2": "Heller Putz und natürliche Materialien schaffen eine harmonische Atmosphäre, während große Fenster die Räume mit Sonnenlicht durchfluten. Der offene Grundriss verbindet Küche und Wohnzimmer und schafft eine freundliche Umgebung für Familientreffen.",
+        "3": "📐 Sie können dieses Projekt wählen oder an Ihre Bedürfnisse anpassen."
+      }
+    }
+  },
+  "order": {
+    "button": "Anfrage senden",
+    "title": "Projektanfrage",
+    "project": "Seite",
+    "name": "Name",
+    "phone": "Telefon",
+    "finish": "Ausstattung",
+    "comment": "Kommentar",
+    "source": "Hausrechner-Button",
+    "namePlaceholder": "Ihr Name",
+    "phonePlaceholder": "Telefonnummer",
+    "commentPlaceholder": "Kommentar",
+    "selectFinish": "Ausstattungsart wählen",
+    "finishes": {
+      "black": "Rohbau",
+      "pre": "Vorbereitung",
+      "full": "Schlüsselfertig"
+    },
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet...",
+    "success": "Vielen Dank! Ihre Anfrage wurde gesendet.",
+    "policyNote": "Mit dem Klick auf „Anfrage senden“ stimme ich der",
+    "policyLink": "Datenschutzrichtlinie",
+    "telegramTitle": "Neue Anfrage von der Seite",
+    "errors": {
+      "name": "Bitte geben Sie einen gültigen Namen ein",
+      "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+      "finish": "Bitte wählen Sie eine Ausstattungsart"
+    }
+  },
+  "notfound": {
+    "message": "Ups... Seite nicht gefunden oder noch im Aufbau.",
+    "button": "Zurück zur Startseite"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "intro": "Diese Datenschutzrichtlinie beschreibt die Vorgehensweise zur Verarbeitung und zum Schutz personenbezogener Daten der Nutzer bei der Nutzung der Website von Domberg (im Folgenden: Betreiber).",
+    "section1": {
+      "title": "Allgemeine Bestimmungen",
+      "text": "Die Nutzung der Website bedeutet die Zustimmung des Nutzers zu dieser Datenschutzrichtlinie. Im Falle einer Ablehnung sollte der Nutzer von der Nutzung der Website absehen."
+    },
+    "section2": {
+      "title": "Personenbezogene Daten",
+      "text": "Personenbezogene Daten sind Informationen, die der Nutzer freiwillig über das Formular auf der Website angibt: Name, Telefonnummer, Kommentar. Diese Daten werden ohne Zustimmung des Nutzers nicht an Dritte weitergegeben."
+    },
+    "section3": {
+      "title": "Zweck der Datenerhebung",
+      "list": [
+        "Bearbeitung von Kundenanfragen;",
+        "Beratung zu Unternehmensdienstleistungen;",
+        "Verbesserung der Servicequalität;",
+        "Kontaktaufnahme mit dem Kunden zur Klärung von Anfragedetails."
+      ]
+    },
+    "section4": {
+      "title": "Verarbeitungsmethoden",
+      "text": "Die Verarbeitung personenbezogener Daten erfolgt sowohl mit als auch ohne Automatisierung gemäß den geltenden Gesetzen der Russischen Föderation."
+    },
+    "section5": {
+      "title": "Speicherung und Schutz",
+      "text": "Die Daten werden in sicheren Google-Diensten (Google Tabellen) gespeichert und sind für Dritte nicht zugänglich. Die Übertragung erfolgt über eine gesicherte HTTPS-Verbindung. Benachrichtigungen erfolgen über einen Telegram-Bot."
+    },
+    "section6": {
+      "title": "Speicherfrist",
+      "text": "Die Daten werden 12 Monate ab dem Zeitpunkt der Erfassung oder bis zur Löschung auf Anfrage des Nutzers gespeichert."
+    },
+    "section7": {
+      "title": "Weitergabe an Dritte",
+      "text": "Der Betreiber gibt personenbezogene Daten nicht an Dritte weiter, es sei denn, dies ist gesetzlich vorgeschrieben."
+    },
+    "section8": {
+      "title": "Rechte des Nutzers",
+      "text": "Der Nutzer hat das Recht, eine Korrektur oder Löschung seiner personenbezogenen Daten zu verlangen und seine Einwilligung zu widerrufen, indem er eine E-Mail sendet an:"
+    },
+    "section9": {
+      "title": "Änderungen der Richtlinie",
+      "text": "Der Betreiber hat das Recht, diese Datenschutzrichtlinie ohne Zustimmung des Nutzers zu ändern. Die aktuelle Version ist unter /PrivacyPolicy einsehbar."
+    },
+    "section10": {
+      "title": "Kontaktinformationen"
+    }
+  },
+
+  "footer": {
+    "company": "Domberg  — Bau von Niedrigenergiehäusern"
+  }
+}

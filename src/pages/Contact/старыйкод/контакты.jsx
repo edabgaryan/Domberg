@@ -29,13 +29,13 @@ export default function Contact() {
           <div className="contact-page__body">
             <div className='contact-p-b-box'>
               <a className="paragraph contact-page__paragraph">
-                ИП Абгарян Эдгар Манвелович
+                Строительная Компания СК СтройКом
               </a>
               <a className="paragraph contact-page__paragraph">
                 +7 909 798 27 52
               </a>
-              <a className="paragraph contact-page__paragraph" href="mailto:narinebeautystudio@gmail.com">
-                NMDomStroy@gmail.com
+              <a className="paragraph contact-page__paragraph" href="mailto:nskstroy39@gmail.com">
+                skstroy39@gmail.com
               </a>
             </div>
             <div className="contact__item-list">
@@ -72,16 +72,6 @@ export default function Contact() {
                 <button type="submit" className="contact__form-button">Отправить сообщение</button>
               </form>
             </div>
-          </div>
-          <div className="contact-page__img">
-            <iframe
-              src="https://yandex.ru/map-widget/v1/?um=constructor%3A13d3e937a05530ec3fa1c18d9c0f56d55630594b4ac7e00853ad689e5c2e6a58&amp;source=constructor"
-              width="100%"
-              height="400"
-              frameBorder="0"
-              title="map"
-              style={{ borderRadius: '12px' }}
-            ></iframe>
           </div>
         </div>
       </section>

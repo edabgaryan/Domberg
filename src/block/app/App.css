@@ -1,51 +1,53 @@
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-weight: 100;
 }
 
-
 .App {
-    margin: 0 auto;
-    height: 100%;
-    font-family: "PT Sans", sans-serif;
-    padding: 0 30px;
- }
+  margin: 0 auto;
+  height: 100%;
+  font-family: "PT Sans", sans-serif;
+  padding: 0 30px;
+}
 
-  @font-face {
-    font-family: 'Urbanist-VariableFont_wght';
-    src: url('../../assets/fonts/Urbanist-VariableFont_wght.ttf') format('woff2'),
-         url('../../assets/fonts/Urbanist-Italic-VariableFont_wght.ttf') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  .pt-sans-regular {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .pt-sans-bold {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .pt-sans-regular-italic {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .pt-sans-bold-italic {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
+@font-face {
+  font-family: "Urbanist-VariableFont_wght";
+  src:
+    url("../../assets/fonts/Urbanist-VariableFont_wght.ttf") format("woff2"),
+    url("../../assets/fonts/Urbanist-Italic-VariableFont_wght.ttf")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  /* Feature*/
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Feature*/
 .feature {
   margin-top: 71px;
   margin-bottom: 100px;
@@ -77,8 +79,6 @@
   font-size: 48px;
   font-weight: 100;
 }
-
-
 
 .feature__wrap-paragraph {
   margin: 0; /* Убираем отступы у абзаца */
@@ -135,7 +135,6 @@
 
 .experience__text-column {
   flex: 1; /* Занимает 1 колонку */
-
 }
 
 .experience__text-title {
@@ -194,7 +193,7 @@
 
 .service__container {
   display: flex; /* Flexbox для выравнивания кнопок */
-  justify-content: space-between; 
+  justify-content: space-between;
   gap: 16px; /* Промежуток между кнопками */
   padding-top: 40px;
   padding-bottom: 16px;
@@ -279,7 +278,6 @@
   flex-direction: column;
 }
 
-
 .column__right-box {
   margin-bottom: 20px;
   display: flex;
@@ -307,7 +305,6 @@
   margin-bottom: 16px;
 }
 
-
 .column__left-title {
   font-size: 40px;
   font-weight: 400;
@@ -334,7 +331,6 @@
 .column__left-paragraph {
   color: #616161;
 }
-
 
 /*Gallery*/
 
@@ -368,7 +364,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
- }
+}
 .gallery__overlay {
   background-color: rgb(245, 245, 245);
   border-radius: 10px;
@@ -390,21 +386,21 @@
   transition: opacity 0.7s ease;
 }
 .gallery__overlay-price {
-    background-color: rgb(245, 245, 245);
-    border-radius: 10px;
-    align-items: center;
-    top: 20px;
-    display: flex;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: min-content;
-    justify-content: space-between;
-    padding: 10px;
-    position: absolute;
-    right: 10px;
-    opacity: 0;
-    transition: opacity 0.7s ease;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  align-items: center;
+  top: 20px;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: min-content;
+  justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.7s ease;
 }
 .gallery__overlay__price-text {
   color: #000;
@@ -412,13 +408,12 @@
   font-size: 23px; /* Размер текста */
   text-align: center; /* Центрирование текста */
 }
-.gallery__block:hover .gallery__overlay  {
+.gallery__block:hover .gallery__overlay {
   opacity: 1; /* Показать оверлей при наведении на картину */
 }
 .gallery__block:hover .gallery__overlay-price {
   opacity: 1;
 }
-
 
 .gallery__overlay-text {
   color: #000;
@@ -426,9 +421,6 @@
   font-size: 40px; /* Размер текста */
   text-align: center; /* Центрирование текста */
 }
-
-
-
 
 /* Contact */
 .contact-p-b-box {
@@ -481,10 +473,10 @@
   transition: background-color 0.5s ease;
 }
 
-.contact__form-input:focus, .contact__form-textarea:focus {
+.contact__form-input:focus,
+.contact__form-textarea:focus {
   outline: none; /* Убирает стандартный контур браузера */
 }
-
 
 /* About */
 .about {
@@ -512,9 +504,9 @@
   color: #616161;
 }
 .about__w-img {
-  width: 100%;                       /* Делаем изображение шириной 100% от родителя */
-  max-width: 100%;                   /* Ограничиваем максимальную ширину изображения */
-  overflow: hidden;                  /* Скрываем все, что выходит за пределы блока */
+  width: 100%; /* Делаем изображение шириной 100% от родителя */
+  max-width: 100%; /* Ограничиваем максимальную ширину изображения */
+  overflow: hidden; /* Скрываем все, что выходит за пределы блока */
   border-radius: 20px;
 }
 
@@ -549,15 +541,15 @@
 .value__paragraph {
   font-size: 16px;
   margin: 0;
-  flex: 1;                         /* Позволяем параграфу растягиваться */
-  text-align: left;                
+  flex: 1; /* Позволяем параграфу растягиваться */
+  text-align: left;
   color: #616161;
 }
 
-.value__b-p-images{
-  width: 100%;                     /* Устанавливаем ширину изображения 100% от родителя */
-  max-height: 750px;             /* Устанавливаем высоту изображения 100% от родителя */
-  object-fit: cover;               /* Обеспечиваем обрезку изображения с сохранением пропорций */
+.value__b-p-images {
+  width: 100%; /* Устанавливаем ширину изображения 100% от родителя */
+  max-height: 750px; /* Устанавливаем высоту изображения 100% от родителя */
+  object-fit: cover; /* Обеспечиваем обрезку изображения с сохранением пропорций */
   border-radius: 20px;
 }
 .value__c-item {
@@ -582,7 +574,6 @@
 
 /*AboutTeam*/
 .about__team {
-
 }
 .team__title {
   font-size: 40px;
@@ -596,8 +587,12 @@
 }
 
 .team__member {
-  position: relative;  /* Позволяет фото оставаться внутри блока */
-  background-color: rgb(245, 245, 245); /* Задаем цвет фона для каждого участника */
+  position: relative; /* Позволяет фото оставаться внутри блока */
+  background-color: rgb(
+    245,
+    245,
+    245
+  ); /* Задаем цвет фона для каждого участника */
   border-radius: 8px; /* Закругление углов */
   padding: 10px; /* Добавляем отступы внутри блока */
   transition: transform 0.3s; /* Плавный переход для эффекта наведения */
@@ -605,15 +600,15 @@
 
 .member__photo-container {
   inset: unset;
-    height: 320px;
-    position: relative;
-    width: 100%;
-    margin-bottom: 20px;
+  height: 320px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
 }
 .member__photo {
-  width: 100%;         
-  height: 100%;        
-  border-radius: 8px;  
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
   object-position: center center;
   object-fit: cover;
 }
@@ -623,28 +618,27 @@
   gap: 12px;
 }
 .member__name {
-  font-size: 32px;
+  font-size: 28px;
 }
 .member__role {
-  font-size: 19px;
-}
-.member__email {
   font-size: 16px;
   color: #616161;
 }
 
 @media (max-width: 768px) {
   .team__container {
-      grid-template-columns: repeat(2, 1fr); /* Две колонки для экранов меньше 768px */
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Две колонки для экранов меньше 768px */
   }
 }
 
 @media (max-width: 480px) {
   .team__container {
-      grid-template-columns: 1fr; /* Одна колонка для экранов меньше 480px */
+    grid-template-columns: 1fr; /* Одна колонка для экранов меньше 480px */
   }
 }
-
 
 /*Project CoastVilla */
 
@@ -777,7 +771,6 @@
   align-items: center;
 }
 
-
 .buy__option-title {
   font-size: 18px;
   font-weight: 400;
@@ -808,7 +801,6 @@
   font-weight: 400;
   font-size: 48px;
 }
-
 
 /*NotFounPAge*/
 .notfound {
@@ -855,7 +847,6 @@
   margin-top: 70px;
   margin-bottom: 140px;
 }
-
 
 .contact-modern__title {
   font-size: 42px;
@@ -1103,7 +1094,6 @@ button:hover {
   align-items: center;
   justify-content: center;
   z-index: 1000;
-
 }
 
 .modal-img {
@@ -1142,12 +1132,331 @@ button:hover {
   right: 20px;
 }
 
+/*Order Button*/
+.order__btn-block {
+  margin-top: 40px;
+  text-align: center;
+}
+.order__button {
+  width: 70%;
+  padding: 20px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-form input,
+.modal-form select,
+.modal-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(245, 245, 245);
+  font-size: 16px;
+}
+
+.modal-form button {
+  margin: 5px;
+  padding: 20px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background: #000;
+  color: #fff;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.success-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #000;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  animation: fadeInOut 3s ease forwards;
+  z-index: 2000;
+}
+.modal__title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/*Calc*/
+.calculator {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.calculator__title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.calculator__field {
+  margin-bottom: 24px;
+}
+
+.calculator__label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.calculator__select,
+.calculator__input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(245, 245, 245);
+  font-size: 16px;
+}
+
+/* 🔥 Кнопка по твоим пожеланиям */
+.calculator__button {
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.calculator__button:hover {
+  background-color: #000000ab;
+}
+
+.calculator__result {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.calculator__result-label {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.calculator__price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* PrivacyPolicy */
+.privacy-notice {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.privacy-notice a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.privacy-policy {
+  padding: 60px 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.privacy-policy__container {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.privacy-policy h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.privacy-policy h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.privacy-policy ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+/*Translate*/
+.header-socials-lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-dropdown {
+  position: relative;
+}
+
+.lang-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333;
+  font-size: 18px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.lang-toggle:hover {
+  background-color: #f0f0f0;
+}
+
+.lang-menu {
+  position: absolute;
+  top: 34px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  list-style: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  padding: 4px 0;
+  min-width: 60px;
+}
+
+.lang-menu li {
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.lang-menu li:hover {
+  background-color: #f3f3f3;
+}
+
+/* land selection */
+.land__selection {
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.land-selection__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1f1f1f;
+  text-align: center;
+}
+.land-selection__image {
+  width: 100%;
+  max-height: 400px; /* не влияет на выбор srcset */
+  object-fit: cover; /* не влияет на выбор srcset */
+  border-radius: 12px;
+  margin: 24px 0;
+}
+
+.land-selection__intro {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #444;
+  text-align: justify;
+}
+
+.land-selection__list {
+  list-style: decimal inside;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  padding-left: 10px;
+}
+
+.land-selection__list ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .calculator {
+    padding: 24px 16px;
+  }
+
+  .calculator__title {
+    font-size: 22px;
+  }
+
+  .calculator__price {
+    font-size: 26px;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .App {
     padding: 0 10px;
   }
-  .feature__text-block  {
+  .feature__text-block {
     margin: 0;
     padding: 0;
     margin-top: 32px;
@@ -1157,7 +1466,6 @@ button:hover {
     align-items: center;
     text-align: center;
     box-shadow: none;
-
   }
   .feature__wrap-title {
     font-size: 32px;
@@ -1178,7 +1486,7 @@ button:hover {
   .service__title {
     font-size: 26px;
   }
-  .service__container-btn  {
+  .service__container-btn {
     font-size: 26px;
   }
   .column__left-title {
@@ -1192,7 +1500,7 @@ button:hover {
     padding-bottom: 90px;
   }
   .gallery {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
   .gallery__img {
     transition: none;
@@ -1239,7 +1547,7 @@ button:hover {
     flex-direction: column-reverse;
     gap: 48px;
   }
-  
+
   .value__column {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1267,50 +1575,75 @@ button:hover {
     border-radius: inherit;
     object-position: center center;
     object-fit: cover;
-   }
+  }
   /* Buy */
-   .buy__options {
-    grid-template-columns: 1fr; 
-    }
-    .buy__title {
-      font-size: 32px;
-    }
-    .buy__subtitle {
-      font-size: 26px;
-    }
-    .project__title {
-      font-size: 32px;
-    }
-    .project {
-      gap: 48px;
-      margin-bottom: 90px;
-    }
-    .PP__overlay-text {
-      font-size: 32px;
-      padding: 12px;
-      bottom: 30px;
-    }
-    .ProjectPage__description {
-      flex-direction: column;
-    }
-    .experience__text-paragraph {
-      font-size: 26px;
-    }
-    .experience__g-i-title {
-      font-size: 32px;
-    }
-    .service__display-img {
-      height: 500px;
-    }
-    .buy__option-block {
-      padding: 23px;
-    }
-    .contact-modern__title {
-      font-size: 32px;
-    }
-    .gallery__title {
-      font-size: 32px;
-    }
+  .buy__options {
+    grid-template-columns: 1fr;
+  }
+  .buy__title {
+    font-size: 32px;
+  }
+  .buy__subtitle {
+    font-size: 26px;
+  }
+  .project__title {
+    font-size: 32px;
+  }
+  .project {
+    gap: 48px;
+    margin-bottom: 90px;
+  }
+  .PP__overlay-text {
+    font-size: 32px;
+    padding: 12px;
+    bottom: 30px;
+  }
+  .ProjectPage__description {
+    flex-direction: column;
+  }
+  .experience__text-paragraph {
+    font-size: 26px;
+  }
+  .experience__g-i-title {
+    font-size: 32px;
+  }
+  .service__display-img {
+    height: 500px;
+  }
+  .buy__option-block {
+    padding: 23px;
+  }
+  .contact-modern__title {
+    font-size: 32px;
+  }
+  .gallery__title {
+    font-size: 32px;
+  }
+
+  .land-selection__title {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .land-selection__image {
+    max-height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+  .land-selection__intro {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .land-selection__list {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .land-selection__list ul {
+    padding-left: 16px;
+  }
 }
 @media screen and (max-width: 650px) {
   .PP__overlay-text {
@@ -1335,10 +1668,10 @@ button:hover {
   .PP__image-grid-img {
     height: 260px;
   }
-  .ProjectPage__image  {
+  .ProjectPage__image {
     height: 355px;
   }
-  .gallery__img  {
+  .gallery__img {
     height: 355px;
   }
   .gallery__overlay {
@@ -1368,5 +1701,259 @@ button:hover {
   .service__container-btn {
     padding: 25px;
   }
+
+  .land-selection__title {
+    font-size: 22px;
+  }
+
+  .land-selection__image {
+    max-height: 220px;
+    border-radius: 8px;
+  }
+
+  .land-selection__intro {
+    font-size: 16px;
+  }
+
+  .land-selection__list {
+    font-size: 14px;
+  }
+
+  .land-selection__list ul {
+    padding-left: 12px;
+  }
+}
+/*Прайс лист*/
+/* ═══════════════════════════════════════════════════════════════
+   PriceList.css  —  Прайс-лист строительных услуг | Domberg39
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Layout ───────────────────────────────────────────────────── */
+.price-list {
+  padding: 100px 0 80px;
 }
 
+.price-list__container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ── Header ───────────────────────────────────────────────────── */
+.price-list__title {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: var(--color-text, #1a1a1a);
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+
+.price-list__subtitle {
+  font-size: 1rem;
+  color: var(--color-text-muted, #555);
+  line-height: 1.65;
+  max-width: 720px;
+  margin-bottom: 44px;
+}
+
+/* ── Package cards ────────────────────────────────────────────── */
+.price-list__packages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 52px;
+}
+
+.price-list__package {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 24px 20px;
+  border-radius: 10px;
+  background-color: rgb(245, 245, 245);
+  transition: box-shadow 0.2s;
+}
+
+.price-list__package:hover {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+}
+
+.price-list__package--highlight {
+  background: #f0f4ff;
+}
+
+.price-list__package-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted, #555);
+}
+
+.price-list__package-price {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--color-text, #1a1a1a);
+  line-height: 1.2;
+}
+
+.price-list__package-desc {
+  font-size: 0.82rem;
+  color: var(--color-text-muted, #666);
+  line-height: 1.5;
+}
+
+/* ── Accordion ────────────────────────────────────────────────── */
+.price-list__sections {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.price-list__section {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+.price-list__section-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text, #1a1a1a);
+  text-align: left;
+  transition: background 0.15s;
+  font-family: inherit;
+  border: none;
+}
+
+.price-list__section-header:hover {
+  background: #f5f5f5;
+}
+
+.price-list__section--open .price-list__section-header {
+  background: #f5f5f5;
+  color: var(--color-text, #1a1a1a);
+}
+
+.price-list__chevron {
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+
+.price-list__section--open .price-list__chevron {
+  transform: rotate(180deg);
+}
+
+/* ── Table ────────────────────────────────────────────────────── */
+.price-list__table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  animation: slideDown 0.2s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.price-list__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.price-list__table thead tr {
+  background: #f2f2f2;
+}
+
+.price-list__table th {
+  padding: 10px 16px;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #777;
+  white-space: nowrap;
+}
+
+.price-list__table th:last-child,
+.price-list__table td:last-child {
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+
+.price-list__table th:nth-child(2),
+.price-list__table td:nth-child(2) {
+  width: 72px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.price-list__table tbody tr {
+  transition: background 0.12s;
+}
+
+.price-list__table tbody tr:hover {
+  background: #f7f7f7;
+}
+
+.price-list__table td {
+  padding: 11px 16px;
+  color: var(--color-text, #1a1a1a);
+  line-height: 1.5;
+}
+
+.price-list__price-cell {
+  font-weight: 600;
+  color: var(--color-text, #1a1a1a);
+}
+
+/* ── Note ─────────────────────────────────────────────────────── */
+.price-list__note {
+  font-size: 0.82rem;
+  color: #888;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  padding-left: 14px;
+}
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .price-list {
+    padding: 80px 0 60px;
+  }
+
+  .price-list__packages {
+    grid-template-columns: 1fr;
+  }
+
+  .price-list__table {
+    font-size: 0.82rem;
+  }
+
+  .price-list__table th,
+  .price-list__table td {
+    padding: 9px 12px;
+  }
+
+  .price-list__section-header {
+    font-size: 0.92rem;
+    padding: 15px 14px;
+  }
+}

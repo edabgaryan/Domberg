@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "key": "dom100",
+    "photo": "project1",
+    "alt": "Image 1",
+    "path": "/project/Dom100"
+  },
+  {
+    "id": 2,
+    "key": "mansarda120",
+    "photo": "project2",
+    "alt": "Image 2",
+    "path": "/project/Mansarda100"
+  },
+
+  {
+    "id": 3,
+    "key": "skandi100",
+    "photo": "project3",
+    "alt": "Image 3",
+    "path": "/project/SkandiHouse2"
+  },
+  {
+    "id": 6,
+    "key": "skandi120",
+    "photo": "project6",
+    "alt": "Image 6",
+    "path": "/project/SkandiHouse120"
+  },
+  {
+    "id": 5,
+    "key": "skandi160",
+    "photo": "project5",
+    "alt": "Image 5",
+    "path": "/project/SkandiHouse"
+  },
+  {
+    "id": 4,
+    "key": "hitech90",
+    "photo": "project4",
+    "alt": "Image 4",
+    "path": "/project/HiTech90"
+  }
+]

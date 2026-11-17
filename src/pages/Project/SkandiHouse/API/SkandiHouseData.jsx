@@ -1,24 +1,38 @@
-const SkandiHouseData = {
-    title: "Сканди хаус 160м²",
-    mainImage: "https://i.ibb.co/DDQhhhJW/Chat-GPT-Image-17-2025-23-23-59.png",
+import { useTranslation } from "react-i18next";
+
+const SkandiHouseData = () => {
+  const { t } = useTranslation();
+
+  return {
+    title: t("projectpage.SkandiHouse.title"),
+    folder: "skandi160", // название папки с фото
+    mainImageName: "skandi1", // главное фото (без расширения)
     gridInfo: [
-      { label: "Тип", value: "Одноэтажный дом" },
-      { label: "Срок реализации", value: "90 дней" },
-      { label: "Площадь", value: "160м²" },
-      { label: "Стоимость", value: "По запросу" }
+      {
+        label: t("projectpage.SkandiHouse.grid.type"),
+        value: t("projectpage.SkandiHouse.grid.typeValue"),
+      },
+      {
+        label: t("projectpage.SkandiHouse.grid.duration"),
+        value: t("projectpage.SkandiHouse.grid.durationValue"),
+      },
+      {
+        label: t("projectpage.SkandiHouse.grid.area"),
+        value: t("projectpage.SkandiHouse.grid.areaValue"),
+      },
+      {
+        label: t("projectpage.SkandiHouse.grid.price"),
+        value: t("projectpage.SkandiHouse.grid.priceValue"),
+      },
     ],
     description: [
-      "Сканди Хаус — дом площадью 160 кв. м, который объединяет современность и уют. Его минималистичный стиль подчеркнут светлой штукатуркой и мягкой цветовой палитрой.",
-      "Деревянные акценты добавляют тепла и естественности, а функциональная архитектура делает пространство максимально удобным. Просторная кухня и гостиная идеально подходят для семейных встреч, а большие окна наполняют дом светом.",
-      "Мансарда, оформленная в соответствии с общим стилем, предлагает дополнительные возможности для отдыха и хранения.",
-      "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
+      t("projectpage.SkandiHouse.desc.0"),
+      t("projectpage.SkandiHouse.desc.1"),
+      t("projectpage.SkandiHouse.desc.2"),
+      t("projectpage.SkandiHouse.desc.3"),
     ],
-    images: [
-      "https://i.ibb.co/hRmSmSGv/fabula-ai.png",
-      "https://i.ibb.co/274cVDkb/photo-2025-04-11-14-07-21-2.jpg",
-      "https://i.ibb.co/x8HcKkfM/fabula-ai-2.png",
-      "https://i.ibb.co/kLPkm7r/photo-2025-04-11-14-07-20-2.jpg"
-    ]
+    images: ["skandi2", "skandi3", "skandi4", "skandi5"],
   };
-  
-  export default SkandiHouseData;
+};
+
+export default SkandiHouseData;

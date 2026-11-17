@@ -8,7 +8,7 @@
   background-color: white;
 }
 .header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -16,12 +16,9 @@
   height: 100%;
   z-index: 2;
 }
-.header, .header:before {
+.header,
+.header:before {
   left: 0;
   top: 0;
   width: 100%;
 }
-
-
-
-

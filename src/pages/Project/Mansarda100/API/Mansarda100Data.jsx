@@ -1,30 +1,39 @@
-const PeakHouseData = {
-    title: "Мансардный уют 120м²",
-    mainImage: "https://i.ibb.co/7xcVJztm/Chat-GPT-Image-17-2025-23-31-15-1.png",
+import { useTranslation } from "react-i18next";
+
+const Mansarda100Data = () => {
+  const { t } = useTranslation();
+
+  return {
+    title: t("projectpage.Mansarda100.title"),
+    folder: "120mans",
+    mainImageName: "120mans", // главное фото
     gridInfo: [
-      { label: "Тип", value: "Одноэтажный дом" },
-      { label: "Срок реализации", value: "90 дней" },
-      { label: "Площадь", value: "120м²" },
-      { label: "Стоимость", value: "По запросу" }
+      {
+        label: t("projectpage.Mansarda100.grid.type"),
+        value: t("projectpage.Mansarda100.grid.typeValue"),
+      },
+      {
+        label: t("projectpage.Mansarda100.grid.duration"),
+        value: t("projectpage.Mansarda100.grid.durationValue"),
+      },
+      {
+        label: t("projectpage.Mansarda100.grid.area"),
+        value: t("projectpage.Mansarda100.grid.areaValue"),
+      },
+      {
+        label: t("projectpage.Mansarda100.grid.price"),
+        value: t("projectpage.Mansarda100.grid.priceValue"),
+      },
     ],
     description: [
-      "Этот превосходный дом площадью 120 кв. м. привлекает своим современным дизайном и функциональностью.",
-      "Он включает мансардный этаж, что создает дополнительные возможности для использования пространства. Особенностью дома являются красивые окна до пола, которые наполняют интерьеры естественным светом и создают ощущение простора.",
-      "Второй свет в гостиной добавляет воздушности и визуальной широты, а широкий обзор на улицу создает уютную атмосферу. ",
-      "Пространство идеально подходит для семейной жизни, объединяя комфорт и стиль.",
-      "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
+      t("projectpage.Mansarda100.desc.0"),
+      t("projectpage.Mansarda100.desc.1"),
+      t("projectpage.Mansarda100.desc.2"),
+      t("projectpage.Mansarda100.desc.3"),
+      t("projectpage.Mansarda100.desc.4"),
     ],
-    images: [
-      "https://i.ibb.co/vxVpr9w1/photo-2025-04-10-13-45-56.jpg",
-      "https://i.ibb.co/rGzxMGqs/photo-2025-04-10-13-45-54.jpg",
-      "https://i.ibb.co/Nd6fcjVX/photo-2025-04-10-13-45-57.jpg",
-      "https://i.ibb.co/DPkPHpTQ/photo-2025-04-10-13-45-53.jpg",
-      "https://i.ibb.co/Jj3dzjxS/photo-2025-04-10-13-45-59.jpg",
-      "https://i.ibb.co/qFN9BdWF/photo-2025-04-10-13-45-58.jpg"
- 
-    ]
-    
+    images: ["120mans1", "120mans2", "120mans3", "120mans4", "120mans5"],
   };
-  
-  export default PeakHouseData;
-  
+};
+
+export default Mansarda100Data;

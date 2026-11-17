@@ -2,6 +2,9 @@
   display: flex;
   list-style-type: none;
   position: relative;
-  z-index: 3;
+  z-index: 33333;
   margin-bottom: 0;
+  margin-right: 10px;
+  align-items: center;
+  list-style: none;
 }

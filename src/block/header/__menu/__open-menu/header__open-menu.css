@@ -25,7 +25,7 @@
   }
   .header__open-menu::before,
   .header__open-menu::after {
-    content: '';
+    content: "";
     background-color: rgb(17, 15, 15);
     position: absolute;
     width: 100%;

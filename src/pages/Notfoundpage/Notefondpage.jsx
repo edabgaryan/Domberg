@@ -2,8 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import PageWrapper from '../../components/PageWrapper/PageWrapper';
+import { useTranslation } from 'react-i18next';
 
 const NotFound = () => {
+  const { t } = useTranslation();
+
   return (
     <PageWrapper>
       <motion.div
@@ -15,10 +18,10 @@ const NotFound = () => {
       >
         <h1 className="notfound__title">404</h1>
         <p className="notfound__text">
-          Упс... страница не найдена или ещё в строительстве.
+          {t('notfound.message')}
         </p>
         <Link to="/" className="notfound__button">
-          Вернуться на главную
+          {t('notfound.button')}
         </Link>
       </motion.div>
     </PageWrapper>

@@ -1,26 +1,38 @@
-const HiTech90Data = {
-    title: "Хай-тек 90м²",
-    mainImage: "https://i.ibb.co/ccHNdVL4/Maison-moderne-dans-un-jardin-verdoyant-1.png",
+import { useTranslation } from "react-i18next";
+
+const HiTech90Data = () => {
+  const { t } = useTranslation();
+
+  return {
+    title: t("projectpage.HiTech90.title"),
+    folder: "hitech90", // название папки с фото
+    mainImageName: "hitech1", // главное фото
     gridInfo: [
-      { label: "Тип", value: "Одноэтажный дом" },
-      { label: "Срок реализации", value: "90 дней" },
-      { label: "Площадь", value: "90м²" },
-      { label: "Стоимость", value: "По запросу" }
+      {
+        label: t("projectpage.HiTech90.grid.type"),
+        value: t("projectpage.HiTech90.grid.typeValue"),
+      },
+      {
+        label: t("projectpage.HiTech90.grid.duration"),
+        value: t("projectpage.HiTech90.grid.durationValue"),
+      },
+      {
+        label: t("projectpage.HiTech90.grid.area"),
+        value: t("projectpage.HiTech90.grid.areaValue"),
+      },
+      {
+        label: t("projectpage.HiTech90.grid.price"),
+        value: t("projectpage.HiTech90.grid.priceValue"),
+      },
     ],
     description: [
-      "Современный дом с просторной террасой и вторым светом.",
-      "Общая площадь: 90 м²",
-      "Современный одноэтажный дом в стиле хай-тек с акцентом на чистую архитектуру, функциональность и естественный свет. Геометричные формы, контрастные материалы, плоская кровля и панорамные окна создают ощущение лёгкости и простора.",
-      "📐 Вы можете выбрать этот проект или адаптировать его под свои потребности."
+      t("projectpage.HiTech90.desc.0"),
+      t("projectpage.HiTech90.desc.1"),
+      t("projectpage.HiTech90.desc.2"),
+      t("projectpage.HiTech90.desc.3"),
     ],
-    images: [
-      "https://i.ibb.co/Z6MMTz4F/Maison-moderne-au-cr-puscule.png",
-      "https://i.ibb.co/d4Hn3ZdJ/Maison-moderne-dans-un-jardin-verdoyant.png",
-      "https://i.ibb.co/NPDWTQn/Maison-moderne-au-c-ur-de-la-verdure.png",
-      "https://i.ibb.co/67vcCG43/Maison-moderne-dans-la-verdure.png",
-      "https://i.ibb.co/6JpYDdBB/5.jpg"
-    ]
-    
+    images: ["hitech2", "hitech3", "hitech4", "hitech5"],
   };
-  
-  export default HiTech90Data;
+};
+
+export default HiTech90Data;
